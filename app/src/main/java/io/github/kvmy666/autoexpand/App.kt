@@ -1,4 +1,4 @@
-package com.autoexpand.xposed
+package io.github.kvmy666.autoexpand
 
 import android.app.Application
 import com.google.android.material.color.DynamicColors

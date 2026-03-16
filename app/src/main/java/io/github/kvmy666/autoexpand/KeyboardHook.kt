@@ -1,4 +1,4 @@
-package com.autoexpand.xposed
+package io.github.kvmy666.autoexpand
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -31,7 +31,7 @@ class KeyboardHook : IXposedHookLoadPackage {
 
     private val TAG = "AutoExpand"
     private val GBOARD_PKG = "com.google.android.inputmethod.latin"
-    private val PROVIDER_URI = Uri.parse("content://com.autoexpand.xposed.prefs")
+    private val PROVIDER_URI = Uri.parse("content://io.github.kvmy666.autoexpand.prefs")
     private val dbExecutor = Executors.newSingleThreadExecutor()
 
     // Cached prefs (refreshed every 2s)

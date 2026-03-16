@@ -1,4 +1,4 @@
-package com.autoexpand.xposed
+package io.github.kvmy666.autoexpand
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -10,7 +10,7 @@ import android.net.Uri
 class PrefsProvider : ContentProvider() {
 
     companion object {
-        const val AUTHORITY = "com.autoexpand.xposed.prefs"
+        const val AUTHORITY = "io.github.kvmy666.autoexpand.prefs"
     }
 
     private fun prefs() = context?.getSharedPreferences("prefs", Context.MODE_PRIVATE)

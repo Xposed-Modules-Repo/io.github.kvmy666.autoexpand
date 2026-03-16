@@ -1,2 +1,2 @@
-com.autoexpand.xposed.MainHook
-com.autoexpand.xposed.KeyboardHook
+io.github.kvmy666.autoexpand.MainHook
+io.github.kvmy666.autoexpand.KeyboardHook

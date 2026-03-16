@@ -14,11 +14,11 @@ val keystoreProperties = Properties().apply {
 }
 
 android {
-    namespace = "com.autoexpand.xposed"
+    namespace = "io.github.kvmy666.autoexpand"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.autoexpand.xposed"
+        applicationId = "io.github.kvmy666.autoexpand"
         minSdk = 35
         targetSdk = 36
         versionCode = 5

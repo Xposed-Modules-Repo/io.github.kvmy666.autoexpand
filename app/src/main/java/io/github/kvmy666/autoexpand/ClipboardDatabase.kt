@@ -1,4 +1,4 @@
-package com.autoexpand.xposed
+package io.github.kvmy666.autoexpand
 
 import android.content.ContentValues
 import android.content.Context

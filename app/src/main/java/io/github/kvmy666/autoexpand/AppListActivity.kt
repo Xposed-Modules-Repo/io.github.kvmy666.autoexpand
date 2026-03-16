@@ -1,4 +1,4 @@
-package com.autoexpand.xposed
+package io.github.kvmy666.autoexpand
 
 import android.content.Context
 import android.content.SharedPreferences

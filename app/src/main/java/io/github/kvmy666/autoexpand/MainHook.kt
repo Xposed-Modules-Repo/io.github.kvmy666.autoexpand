@@ -1,4 +1,4 @@
-package com.autoexpand.xposed
+package io.github.kvmy666.autoexpand
 
 import android.content.Context
 import android.net.Uri
@@ -13,7 +13,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage
 class MainHook : IXposedHookLoadPackage {
 
     private var appContext: Context? = null
-    private val PROVIDER_URI = Uri.parse("content://com.autoexpand.xposed.prefs")
+    private val PROVIDER_URI = Uri.parse("content://io.github.kvmy666.autoexpand.prefs")
 
     // Cached prefs
     private var cachedBoolPrefs = mutableMapOf<String, Boolean>()

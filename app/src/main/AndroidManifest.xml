@@ -27,7 +27,7 @@
 
         <provider
             android:name=".PrefsProvider"
-            android:authorities="com.autoexpand.xposed.prefs"
+            android:authorities="io.github.kvmy666.autoexpand.prefs"
             android:exported="true" />
 
         <!-- Xposed module marker -->
